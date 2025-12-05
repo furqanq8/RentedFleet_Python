@@ -1,0 +1,13 @@
+Django>=4.2,<5
+djangorestframework>=3.14
+psycopg2-binary>=2.9    # required if you use PostgreSQL
+gunicorn>=20.1.0        # WSGI server for deployment
+whitenoise>=6.4         # static files for simple deployments
+python-dotenv>=1.0      # load env vars from .env
+django-environ>=0.10.0  # optional env helpers
+Pillow>=10.0            # image handling, remove if not needed
+
+# Test / dev tools
+pytest>=7.4
+pytest-django>=4.5
+coverage>=6.5
